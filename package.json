@@ -1,0 +1,25 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "A chat application",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Paulo Suero",
+  "license": "ISC",
+  "engines": {
+    "node": "6.0.0"
+  },
+  "dependencies": {
+    "connect-mongo": "1.1.0",
+    "ejs": "2.3.4",
+    "express": "4.13.3",
+    "express-session": "1.12.1",
+    "mongoose": "4.3.1",
+    "passport": "0.3.2",
+    "passport-facebook": "2.1.1",
+    "passport-twitter": "1.0.3",
+    "socket.io": "1.4.5"
+  }
+}
